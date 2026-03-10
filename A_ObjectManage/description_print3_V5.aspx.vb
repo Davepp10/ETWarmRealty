@@ -5915,8 +5915,9 @@ Partial Class description_print3_V4
                     tempdata = tempdata.Replace("≠獎勵容積", 獎勵容積)
                     tempdata = tempdata.Replace("≠說明獎勵容積", 說明獎勵容積)
                     tempdata = tempdata.Replace("≠電梯設備", 電梯設備)
-                    tempdata = tempdata.Replace("≠張貼合格標章", 張貼合格標章)
                     tempdata = tempdata.Replace("≠說明張貼合格標章", 說明張貼合格標章)
+                    tempdata = tempdata.Replace("≠張貼合格標章", 張貼合格標章)
+
                     tempdata = tempdata.Replace("≠行動電話基地台", 頂樓基地台)
                     tempdata = tempdata.Replace("≠基地台說明", 基地台說明)
                     tempdata = tempdata.Replace("≠出租狀況", 出租狀況)
@@ -5926,8 +5927,8 @@ Partial Class description_print3_V4
                     tempdata = tempdata.Replace("≠標題說明出租狀況", 標題說明出租狀況)
                     tempdata = tempdata.Replace("≠標題租約公證", 標題租約公證)
                     tempdata = tempdata.Replace("≠說明出租狀況", 說明出租狀況)
-                    tempdata = tempdata.Replace("≠出借狀況", 出借狀況)
                     tempdata = tempdata.Replace("≠說明出借狀況", 說明出借狀況)
+                    tempdata = tempdata.Replace("≠出借狀況", 出借狀況)
                     tempdata = tempdata.Replace("≠新標題說明出租", s說明出租狀況)
                     tempdata = tempdata.Replace("≠新說明出租", "")
                     tempdata = tempdata.Replace("≠租期保證金額", 租期保證金)
@@ -5975,8 +5976,8 @@ Partial Class description_print3_V4
                     tempdata = tempdata.Replace("≠說明下水道工程", 說明衛生下水道)
                     tempdata = tempdata.Replace("≠附隨買賣設備", 隨附設備)
                     tempdata = tempdata.Replace("≠說明附隨買賣設備", 說明隨附設備)
-                    tempdata = tempdata.Replace("≠是否有車位", 是否有車位)
                     tempdata = tempdata.Replace("≠說明是否有車位", 說明是否有車位) '20160625 add by nick
+                    tempdata = tempdata.Replace("≠是否有車位", 是否有車位)
                     tempdata = tempdata.Replace("≠氯離子含量", 氯離子含量)
                     tempdata = tempdata.Replace("≠氯離子檢測結果", 氯離子檢測結果)
                     tempdata = tempdata.Replace("≠檢測日期", 檢測日期)
@@ -6032,6 +6033,10 @@ Partial Class description_print3_V4
                 tempdata = tempdata.Replace("≠建物其他權利", "")
                 tempdata = tempdata.Replace("≠說明建物其他權利", "")
 
+                tempdata = tempdata.Replace("≠新標題說明出租", "")
+                tempdata = tempdata.Replace("≠新說明出租", "")
+
+                tempdata = tempdata.Replace("≠說明張貼合格標章", "")
                 tempdata = tempdata.Replace("≠建物是否共有", "")
                 tempdata = tempdata.Replace("≠建物有無分管協議", "")
                 tempdata = tempdata.Replace("≠有無專有部分範圍", "")
@@ -6110,7 +6115,7 @@ Partial Class description_print3_V4
                 tempdata = tempdata.Replace("≠附隨買賣設備", "")
                 tempdata = tempdata.Replace("≠說明附隨買賣設備", "")
                 tempdata = tempdata.Replace("≠說明是否有車位", "") '20160625 add by nick
-
+                tempdata = tempdata.Replace("≠是否有車位", "")
                 tempdata = tempdata.Replace("≠氯離子含量", "")
                 tempdata = tempdata.Replace("≠氯離子檢測結果", "")
                 tempdata = tempdata.Replace("≠檢測日期", "")
@@ -6138,6 +6143,12 @@ Partial Class description_print3_V4
                 tempdata = tempdata.Replace("≠說明有無禁建情事", "")
                 tempdata = tempdata.Replace("≠是否有中繼幫浦", "")
                 tempdata = tempdata.Replace("≠中繼幫浦說明", "")
+
+                tempdata = tempdata.Replace("≠太陽光電發電設備說明", "")
+                tempdata = tempdata.Replace("≠太陽光電發電設備", "無")
+                tempdata = tempdata.Replace("≠建築能效標示說明", "")
+                tempdata = tempdata.Replace("≠建築能效標示", "無")
+
                 tempdata = tempdata.Replace("≠違增建使用權", "")
                 tempdata = tempdata.Replace("≠說明違增建使用權", "")
                 tempdata = tempdata.Replace("≠排水系統", "")
