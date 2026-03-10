@@ -1,0 +1,19 @@
+# 忽略全部
+*
+
+# 保留 gitignore
+!.gitignore
+
+# Git說明
+!README.md
+
+# 解除忽略資料夾 
+
+# 指定要追蹤的檔案
+# !reports/New_Description_V4.xml
+# !reports/重複建物管理狀況_V30801.txt
+# !A_ObjectManage/Build_DataV2.aspx
+# !A_ObjectManage/Build_DataV2.aspx.vb
+# !A_ObjectManage/description_print3_V5.aspx
+# !A_ObjectManage/description_print3_V5.aspx.vb
+ 
