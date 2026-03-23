@@ -6145,9 +6145,9 @@ Partial Class description_print3_V4
                 tempdata = tempdata.Replace("≠中繼幫浦說明", "")
 
                 tempdata = tempdata.Replace("≠太陽光電發電設備說明", "")
-                tempdata = tempdata.Replace("≠太陽光電發電設備", "無")
+                tempdata = tempdata.Replace("≠太陽光電發電設備", "")
                 tempdata = tempdata.Replace("≠建築能效標示說明", "")
-                tempdata = tempdata.Replace("≠建築能效標示", "無")
+                tempdata = tempdata.Replace("≠建築能效標示", "")
 
                 tempdata = tempdata.Replace("≠違增建使用權", "")
                 tempdata = tempdata.Replace("≠說明違增建使用權", "")

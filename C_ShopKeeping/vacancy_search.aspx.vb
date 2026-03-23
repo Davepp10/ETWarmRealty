@@ -152,7 +152,7 @@ Partial Class G_WebService_vacancy_search
             Dim ID As Label = CType(e.Row.Cells(0).FindControl("Label5"), Label)
             Dim store_report As Label = CType(e.Row.Cells(0).FindControl("Label6"), Label)
             'HyLnk1.Text = "<a href='#' onClick=""GB_showCenter('商品訂購', '../vacancy/vacancy_biodetailNew.aspx?id=" & CType(e.Row.Cells(0).FindControl("id"), Label).text & "&dlr=" & CType(e.Row.Cells(0).FindControl("store_report"), Label).text & "',560,1100)"";><img src=""../images/comstore_bt_01.gif""/></a>"
-            HyLnk1.Text = "<a href='#' onClick=""GB_showCenter('查看', 'https://superwebnew.etwarm.com.tw/C_ShopKeeping/vacancy/vacancy_biodetailNew.aspx?id=" & ID.text & "&dlr=" & store_report.text & "',560,1100)"";><img src=""../images/land_bt_01.gif""/></a>"
+            HyLnk1.Text = "<a href='#' onClick=""GB_showCenter('查看', 'https://superwebnew.etwarm.com.tw/C_ShopKeeping/vacancy/vacancy_biodetailNew.aspx?id=" & ID.Text & "&dlr=" & store_report.Text & "',560,1100)"";><img src=""../images/land_bt_01.gif""/></a>"
             'Response.Write(ID.text & "_" & store_report.text)
         End If
     End Sub
