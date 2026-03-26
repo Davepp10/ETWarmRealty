@@ -2863,17 +2863,17 @@
                 <!--inpage_container版尾 -->
 
                 <!--footer -------------------------------------------------------------------------------------------------------------->
+        <script src="../js/jquery-ui-1.8.9.custom.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/obj_add_v4.js?_=2"></script>
         </form>
 
     </div>
     <!--最外層wrapper版尾 -->
     <uc2:reveserd ID="reveserd1" runat="server" />
 
-    <script src="../js/jquery-ui-1.8.9.custom.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/obj_add_v4.js?_=1"></script>
     <%--<script type="text/javascript">
-        //$("#current").css({ display: "none" });
-        $("#current li").slice(3).hide();
+         //$("#current").css({ display: "none" });
+         $("#current li").slice(3).hide();
     </script>--%>
 
     <!--判斷目前在哪個TABS-->

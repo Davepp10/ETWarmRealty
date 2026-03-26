@@ -15,6 +15,31 @@ function getUrlParameter(name) {
     return "";
 }
 
+function updateICBObjectInfo(objectNo, storeNo, data) {
+    var url = "/OtherApp/ICB/Ashx/Handler.ashx";
+    var params = $.extend({
+        "action": "update_object_info",
+        "object_no": objectNo,
+        "store_no": storeNo
+    }, data || {});
+ 
+    return $.ajax({
+        url: url,
+        data: params,
+        type: "post",
+        cache: false,
+        dataType: "json"
+    });
+}
+
+function updateICBObjectInfoAndRedirect(objectNo, storeNo, agreeCB, redirectUrl) {
+    updateICBObjectInfo(objectNo, storeNo, {
+        "agree_cb": agreeCB
+    }).always(function () {
+        window.location.href = redirectUrl;
+    });
+}
+
 $(document).ready(function () {
     $("#ImageButton1").click(function () {
         $("#loading").show();
