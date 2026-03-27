@@ -20,5 +20,10 @@
 !A_ObjectManage/Obj_Add_V4.aspx.vb
 !A_ObjectManage/js/
 !A_ObjectManage/js/object_search.js
- 
+!I_SystemSetting/
+!I_SystemSetting/Paramatersetting.aspx
+!I_SystemSetting/Paramatersetting.aspx.vb
+!usercontrol/
+!usercontrol/main_menu.ascx.vb
+  
   
